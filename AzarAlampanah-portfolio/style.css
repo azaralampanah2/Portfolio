@@ -56,7 +56,7 @@ section p {
   max-width: 55ch;
 }
 .fab {
-  font-size: 24px; /* Size of the icon */
+  font-size: 1.3rem; /* Size of the icon */
   color: #0077B5; /* LinkedIn color */
   text-decoration: none; /* Remove underline */
 }
@@ -65,7 +65,7 @@ section p {
   color: #005582; /* Darker color on hover */
 }
 .fas {
-  font-size: 24px; /* Size of the icon */
+  font-size: 1.3rem; /* Size of the icon */
   color: #000; /* Color */
   text-decoration: none; /* Remove underline */
 }
@@ -74,3 +74,12 @@ section p {
   color: #555; /* Darker color on hover */
 }
 
+h6{
+  
+  font-size: 0.9rem;
+  margin:1% 0;
+  
+}
+#git{
+  font-size: 0.9rem;
+}
