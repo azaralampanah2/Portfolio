@@ -55,3 +55,22 @@ section p {
   line-height: 1.5;
   max-width: 55ch;
 }
+.fab {
+  font-size: 24px; /* Size of the icon */
+  color: #0077B5; /* LinkedIn color */
+  text-decoration: none; /* Remove underline */
+}
+
+.fab:hover {
+  color: #005582; /* Darker color on hover */
+}
+.fas {
+  font-size: 24px; /* Size of the icon */
+  color: #000; /* Color */
+  text-decoration: none; /* Remove underline */
+}
+
+.fas:hover {
+  color: #555; /* Darker color on hover */
+}
+
