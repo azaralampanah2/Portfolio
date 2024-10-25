@@ -76,6 +76,7 @@ section p {
   transform: scale(1.1); /* Slightly enlarge the icon on hover */
 }
 
+
 .fas {
   font-size: 1.3rem; /* Size of the icon */
   color: #000; /* Color */
@@ -92,6 +93,9 @@ h6{
   margin:1% 0;
   
 }
+h3{
+  color:
+}
 
 .internet-icon {
   font-size: 1.7rem;     /* Set the size of the icon */
@@ -101,6 +105,9 @@ h6{
 }
 .internet-icon:hover {
   filter: brightness(1.2);       /* Change color on hover */
+}
+#contact{
+  text-align: center;
 }
 footer{
   height: 100px;
