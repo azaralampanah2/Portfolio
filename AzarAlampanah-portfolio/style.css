@@ -7,6 +7,7 @@
   --gap: 20px;
   --container: clamp(280px, calc(100vw - calc(var(--gap) * 2)), 1180px);
 }
+
 /* General Styles */
 html,
 body {
@@ -15,6 +16,7 @@ body {
   color: var(--ink);
   font-family: var(--font);
 }
+
 body {
   display: grid;
   margin: auto;
@@ -22,6 +24,7 @@ body {
   gap: var(--gap);
   max-width: var(--container);
 }
+
 a,
 a:any-link {
   color: currentColor;
@@ -29,11 +32,13 @@ a:any-link {
   border-bottom: 2px solid transparent;
   transition: border-color ease-in-out 0.3s;
 }
+
 a:hover,
 a:focus {
   color: var(--brand);
   border-color: currentColor;
 }
+
 /* Site header and navigation */
 body > header {
   background: var(--paper);
@@ -44,6 +49,7 @@ body > header {
   top: 0;
   z-index: 1;
 }
+
 nav ul {
   display: flex;
   list-style: none;
@@ -55,63 +61,78 @@ section p {
   line-height: 1.5;
   max-width: 55ch;
 }
- .fa-linkedin {
-  font-size: 1.3rem; /* Size of the icon */
-  color: #0077B5; /* LinkedIn color */
-  text-decoration: none; /* Remove underline */
-} 
 
+.fa-linkedin {
+  font-size: 1.3rem;
+  /* Size of the icon */
+  color: #0077b5;
+  /* LinkedIn color */
+  text-decoration: none;
+  /* Remove underline */
+}
 
 .fa-linkedin:hover {
-  color: #005582; /* Darker color on hover */
+  color: #005582;
+  /* Darker color on hover */
 }
- .fa-github {
+
+.fa-github {
   font-size: 1.7rem;
-  
- }
+}
 
 /* Hover effect */
 .fa-github:hover {
-  color: #333; /* Change color on hover */
-  transform: scale(1.1); /* Slightly enlarge the icon on hover */
+  color: #333;
+  /* Change color on hover */
+  transform: scale(1.1);
+  /* Slightly enlarge the icon on hover */
 }
 
-
 .fas {
-  font-size: 1.3rem; /* Size of the icon */
-  color: #000; /* Color */
-  text-decoration: none; /* Remove underline */
+  font-size: 1.3rem;
+  /* Size of the icon */
+  color: #000;
+  /* Color */
+  text-decoration: none;
+  /* Remove underline */
 }
 
 .fas:hover {
-  color: #555; /* Darker color on hover */
+  color: #555;
+  /* Darker color on hover */
 }
 
-h6{
-  
+h6 {
   font-size: 0.9rem;
-  margin:1% 0;
-  
+  margin: 1% 0;
 }
-h3{
-  color:
+
+h3 {
+  color: ;
 }
 
 .internet-icon {
-  font-size: 1.7rem;     /* Set the size of the icon */
-  color: #3498db;       /* Set the color */
-  margin: 10px;         /* Add some margin */
-  transition: color 0.3s ease; /* Smooth color transition */
+  font-size: 1.7rem;
+  /* Set the size of the icon */
+  color: #3498db;
+  /* Set the color */
+  margin: 10px;
+  /* Add some margin */
+  transition: color 0.3s ease;
+  /* Smooth color transition */
 }
+
 .internet-icon:hover {
-  filter: brightness(1.2);       /* Change color on hover */
+  filter: brightness(1.2);
+  /* Change color on hover */
 }
-#contact{
+
+#contact {
   text-align: center;
 }
-footer{
+
+footer {
   height: 100px;
   background-color: black;
   text-align: center;
 }
-
